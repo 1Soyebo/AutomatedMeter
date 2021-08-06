@@ -1,0 +1,6 @@
+framework module Pods_ObasProject {
+  umbrella header "Pods-ObasProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

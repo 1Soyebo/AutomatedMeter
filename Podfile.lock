@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (5.4.0)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - DateToolsSwift (5.0.0)
+  - PKHUD (5.3.0)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Charts
+  - DateToolsSwift
+  - PKHUD
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Charts
+    - DateToolsSwift
+    - PKHUD
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  DateToolsSwift: 4207ada6ad615d8dc076323d27037c94916dbfa6
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 250c5e3419dfda4a601e9523467749385812da3b
+
+COCOAPODS: 1.10.0
