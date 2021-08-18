@@ -23,7 +23,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ank-VC-DRI">
-                    <rect key="frame" x="0.0" y="217" width="375" height="450"/>
+                    <rect key="frame" x="0.0" y="115" width="375" height="552"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="BGG-mi-rCv">
                             <rect key="frame" x="16" y="40" width="343" height="240"/>
@@ -39,7 +39,7 @@
                                         <color key="titleColor" red="0.4941176471" green="0.72549019609999998" blue="0.64313725489999995" alpha="1" colorSpace="calibratedRGB"/>
                                     </state>
                                     <connections>
-                                        <action selector="goToSettings:" destination="-1" eventType="touchUpInside" id="b0Y-YY-Vaj"/>
+                                        <action selector="goToHistory:" destination="-1" eventType="touchUpInside" id="Vpz-IT-XXF"/>
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gnA-cv-Jfh">
@@ -52,6 +52,9 @@
                                     <state key="normal" title="Settings">
                                         <color key="titleColor" red="0.4941176471" green="0.72549019609999998" blue="0.64313725489999995" alpha="1" colorSpace="calibratedRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="goToSettings:" destination="-1" eventType="touchUpInside" id="fVO-91-hyS"/>
+                                    </connections>
                                 </button>
                             </subviews>
                         </stackView>
@@ -85,7 +88,7 @@
             <viewLayoutGuide key="safeArea" id="7xz-te-zyI"/>
             <color key="backgroundColor" red="0.4941176471" green="0.72549019609999998" blue="0.64313725489999995" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="Ank-VC-DRI" firstAttribute="top" secondItem="aGI-a1-OgV" secondAttribute="bottom" constant="152" id="1cs-a2-SMe"/>
+                <constraint firstItem="Ank-VC-DRI" firstAttribute="top" secondItem="aGI-a1-OgV" secondAttribute="bottom" constant="50" id="1cs-a2-SMe"/>
                 <constraint firstItem="lWP-B0-aIu" firstAttribute="centerX" secondItem="k4i-AP-0gk" secondAttribute="centerX" id="4Dq-jy-Tju"/>
                 <constraint firstItem="aGI-a1-OgV" firstAttribute="leading" secondItem="7xz-te-zyI" secondAttribute="leading" constant="16" id="9Vb-Pz-Tco"/>
                 <constraint firstItem="aGI-a1-OgV" firstAttribute="top" secondItem="7xz-te-zyI" secondAttribute="top" constant="20" id="PNH-ep-j2q"/>

@@ -132,8 +132,6 @@
 				2BFC742326BD4E0100BB4DF9 /* Assets.xcassets */,
 				2BFC742526BD4E0100BB4DF9 /* LaunchScreen.storyboard */,
 				2BFC742826BD4E0100BB4DF9 /* Info.plist */,
-				2BFC745426BD74CC00BB4DF9 /* SettingsViewController.swift */,
-				2BFC745526BD74CC00BB4DF9 /* SettingsViewController.xib */,
 			);
 			path = "Oba's Project";
 			sourceTree = "<group>";
@@ -148,6 +146,8 @@
 				2B2E5F8C26CB94DD00F7AD6A /* ObasMenuViewController.xib */,
 				2B2E5F8F26CCF1DA00F7AD6A /* HistoryViewController.swift */,
 				2B2E5F9026CCF1DA00F7AD6A /* HistoryViewController.xib */,
+				2BFC745426BD74CC00BB4DF9 /* SettingsViewController.swift */,
+				2BFC745526BD74CC00BB4DF9 /* SettingsViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";

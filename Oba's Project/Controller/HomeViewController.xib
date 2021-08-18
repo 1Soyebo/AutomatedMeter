@@ -54,14 +54,14 @@
                     </constraints>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDt-Om-qU9">
-                    <rect key="frame" x="0.0" y="20" width="45" height="45"/>
+                    <rect key="frame" x="16" y="20" width="45" height="45"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="45" id="udh-wB-gIG"/>
                         <constraint firstAttribute="width" constant="45" id="xOq-r0-eAq"/>
                     </constraints>
                     <color key="tintColor" red="0.15694871539999999" green="0.1529150903" blue="0.1773445904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal">
-                        <imageReference key="image" image="line.horizontal.3" catalog="system" symbolScale="large"/>
+                        <imageReference key="image" image="meat" symbolScale="large"/>
                     </state>
                     <connections>
                         <action selector="goToHome:" destination="-1" eventType="touchUpInside" id="OLt-Gx-nED"/>
@@ -88,7 +88,7 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" red="0.4941176471" green="0.72549019609999998" blue="0.64313725489999995" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="fDt-Om-qU9" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="16u-4L-zmc"/>
+                <constraint firstItem="fDt-Om-qU9" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="16u-4L-zmc"/>
                 <constraint firstItem="hYN-ie-y17" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="32" id="EBH-6r-sMj"/>
                 <constraint firstItem="lqm-G7-eWY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="GVb-nQ-9Tv"/>
                 <constraint firstItem="19Z-sT-D1r" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="IQe-rb-F6M"/>
@@ -102,7 +102,7 @@
         </view>
     </objects>
     <resources>
-        <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
+        <image name="meat" width="512" height="512"/>
         <image name="power" catalog="system" width="128" height="124"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

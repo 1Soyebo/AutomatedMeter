@@ -28,9 +28,14 @@ class ObasMenuViewController: UIViewController {
         navigationController?.popViewController(animated: true)
     }
     
-    @IBAction func goToSettings(_ sender: Any) {
+    @IBAction func goToHistory(_ sender: Any) {
         let historyVC = HistoryViewController(nibName: "HistoryViewController", bundle: nil)
         navigationController?.pushViewController(historyVC, animated: true)
+    }
+    
+    @IBAction func goToSettings(_ sender: Any) {
+        let settingsVC = SettingsViewController(nibName: "SettingsViewController", bundle: nil)
+        navigationController?.pushViewController(settingsVC, animated: true)
     }
     
     
