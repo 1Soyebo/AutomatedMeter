@@ -69,10 +69,10 @@ class HomeViewController: UIViewController {
 //                array_power_results.insert(single_power, at: 0)
                 array_power_results.append(single_power)
             }
+            HelperClass.globalAdaFruit = array_power_results
             array_Dates = array_Dates.unique()
             sortArrayPowerResults()
-//            checkIfLastDataFromAPICallIsTheSameAsRealm()
-//            HUD.hide()
+
             obaCollectionView.reloadData()
             let hmm = IndexPath(item: array_Dates.count - 1, section: 0)
             obaCollectionView.scrollToItem(at: hmm, at: .right, animated: true)
@@ -93,7 +93,8 @@ class HomeViewController: UIViewController {
     }
     
     @IBAction func goToHome(_ sender: Any) {
-        
+        let obasMenuVC = ObasMenuViewController(nibName: "ObasMenuViewController", bundle: nil)
+        navigationController?.pushViewController(obasMenuVC, animated: true)
     }
     
     fileprivate func configureColledtionView(){
@@ -120,20 +121,7 @@ class HomeViewController: UIViewController {
                 cumulativePower += singlePowerResult.kiloWattHour
                 singlePowerResult.cumulativePower = cumulativePower
             }
-            /** do the sorting for realm
-            print(oneArray.count)
-            let oneArrPersistentPowerResult = ArraysPersistentAdaFruit(iOSDate: oneDate)
-
-            for onePowerReslt in oneArray{
-                let ah = onePowerReslt.createPAdaObject()
-                oneArrPersistentPowerResult.listOfPersAdafruits.append(ah)
-                oneArrPersistentPowerResult.consumpitonTotal.value = (oneArrPersistentPowerResult.consumpitonTotal.value ?? 0) + (ah.power.value ?? 0)
-            }
             
-            try! localRealm.write {
-                localRealm.add(oneArrPersistentPowerResult)
-            }
-            **/
             print(oneDate)
             
             

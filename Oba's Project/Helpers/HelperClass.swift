@@ -8,6 +8,10 @@
 import Foundation
 import Charts
 
+class HelperClass{
+    static var globalAdaFruit = [AdaFruitResult]()
+}
+
 public class DateValueFormatter: NSObject, IAxisValueFormatter {
     private let dateFormatter = DateFormatter()
     private let objects:[AdaFruitResult]
@@ -40,6 +44,18 @@ extension Date{
     func toShortString() -> String{
         let dateFormatter = DateFormatter()
         dateFormatter.dateStyle = .full
+        return dateFormatter.string(from: self)
+    }
+    
+    func toTimeShortStrin() -> String{
+        let dateFormatter = DateFormatter()
+        dateFormatter.timeStyle = .medium
+        return dateFormatter.string(from: self)
+    }
+    
+    func toDateShortString() -> String{
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = .short
         return dateFormatter.string(from: self)
     }
 }

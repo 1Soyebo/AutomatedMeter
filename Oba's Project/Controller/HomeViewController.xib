@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -59,7 +60,9 @@
                         <constraint firstAttribute="width" constant="45" id="xOq-r0-eAq"/>
                     </constraints>
                     <color key="tintColor" red="0.15694871539999999" green="0.1529150903" blue="0.1773445904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <state key="normal" image="line.horizontal.3" catalog="system"/>
+                    <state key="normal">
+                        <imageReference key="image" image="line.horizontal.3" catalog="system" symbolScale="large"/>
+                    </state>
                     <connections>
                         <action selector="goToHome:" destination="-1" eventType="touchUpInside" id="OLt-Gx-nED"/>
                     </connections>
@@ -71,11 +74,13 @@
                         <constraint firstAttribute="width" constant="45" id="oud-a6-7Z1"/>
                     </constraints>
                     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <state key="normal" image="power" catalog="system"/>
+                    <state key="normal">
+                        <imageReference key="image" image="power" catalog="system" symbolScale="large"/>
+                    </state>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hYN-ie-y17">
-                    <rect key="frame" x="152" y="32" width="71" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <rect key="frame" x="145" y="32" width="85.5" height="24"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -89,7 +94,7 @@
                 <constraint firstItem="19Z-sT-D1r" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="IQe-rb-F6M"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="19Z-sT-D1r" secondAttribute="trailing" constant="16" id="JP8-Mn-ohQ"/>
                 <constraint firstItem="fDt-Om-qU9" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="MY7-cz-0hA"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="lqm-G7-eWY" secondAttribute="bottom" id="cyo-pZ-2An"/>
+                <constraint firstAttribute="bottom" secondItem="lqm-G7-eWY" secondAttribute="bottom" id="cyo-pZ-2An"/>
                 <constraint firstItem="hYN-ie-y17" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="hwi-SD-iHV"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="lqm-G7-eWY" secondAttribute="trailing" id="uiz-OF-J0R"/>
             </constraints>

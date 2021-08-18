@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B2E5F8D26CB94DD00F7AD6A /* ObasMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2E5F8B26CB94DD00F7AD6A /* ObasMenuViewController.swift */; };
+		2B2E5F8E26CB94DD00F7AD6A /* ObasMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B2E5F8C26CB94DD00F7AD6A /* ObasMenuViewController.xib */; };
+		2B2E5F9126CCF1DA00F7AD6A /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2E5F8F26CCF1DA00F7AD6A /* HistoryViewController.swift */; };
+		2B2E5F9226CCF1DA00F7AD6A /* HistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B2E5F9026CCF1DA00F7AD6A /* HistoryViewController.xib */; };
+		2B2E5F9626CCF6A200F7AD6A /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2E5F9426CCF6A200F7AD6A /* HistoryTableViewCell.swift */; };
+		2B2E5F9726CCF6A200F7AD6A /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B2E5F9526CCF6A200F7AD6A /* HistoryTableViewCell.xib */; };
 		2BFC741B26BD4DFD00BB4DF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFC741A26BD4DFD00BB4DF9 /* AppDelegate.swift */; };
 		2BFC741D26BD4DFD00BB4DF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFC741C26BD4DFD00BB4DF9 /* SceneDelegate.swift */; };
 		2BFC741F26BD4DFD00BB4DF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFC741E26BD4DFD00BB4DF9 /* ViewController.swift */; };
@@ -27,6 +33,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B2E5F8B26CB94DD00F7AD6A /* ObasMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObasMenuViewController.swift; sourceTree = "<group>"; };
+		2B2E5F8C26CB94DD00F7AD6A /* ObasMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ObasMenuViewController.xib; sourceTree = "<group>"; };
+		2B2E5F8F26CCF1DA00F7AD6A /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		2B2E5F9026CCF1DA00F7AD6A /* HistoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryViewController.xib; sourceTree = "<group>"; };
+		2B2E5F9426CCF6A200F7AD6A /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		2B2E5F9526CCF6A200F7AD6A /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
 		2BFC741726BD4DFD00BB4DF9 /* ObasProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObasProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BFC741A26BD4DFD00BB4DF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BFC741C26BD4DFD00BB4DF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +82,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2B2E5F9326CCF67A00F7AD6A /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2B2E5F9426CCF6A200F7AD6A /* HistoryTableViewCell.swift */,
+				2B2E5F9526CCF6A200F7AD6A /* HistoryTableViewCell.xib */,
+			);
+			path = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		2B2E5F9826CCF6E100F7AD6A /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				2B2E5F9326CCF67A00F7AD6A /* Table View Cells */,
+				2BFC744E26BD748300BB4DF9 /* Collection View Cells */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
 		2BFC740E26BD4DFD00BB4DF9 = {
 			isa = PBXGroup;
 			children = (
@@ -91,8 +121,8 @@
 		2BFC741926BD4DFD00BB4DF9 /* Oba's Project */ = {
 			isa = PBXGroup;
 			children = (
+				2B2E5F9826CCF6E100F7AD6A /* Subviews */,
 				2BFC745926BD74D900BB4DF9 /* Sidemenu */,
-				2BFC744E26BD748300BB4DF9 /* Collection View Cells */,
 				2BFC744326BD744D00BB4DF9 /* Helpers */,
 				2BFC744226BD744700BB4DF9 /* Models */,
 				2BFC743F26BD731800BB4DF9 /* Controller */,
@@ -114,6 +144,10 @@
 				2BFC741E26BD4DFD00BB4DF9 /* ViewController.swift */,
 				2BFC743126BD520F00BB4DF9 /* HomeViewController.xib */,
 				2BFC743026BD520F00BB4DF9 /* HomeViewController.swift */,
+				2B2E5F8B26CB94DD00F7AD6A /* ObasMenuViewController.swift */,
+				2B2E5F8C26CB94DD00F7AD6A /* ObasMenuViewController.xib */,
+				2B2E5F8F26CCF1DA00F7AD6A /* HistoryViewController.swift */,
+				2B2E5F9026CCF1DA00F7AD6A /* HistoryViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -222,9 +256,12 @@
 			files = (
 				2BFC742726BD4E0100BB4DF9 /* LaunchScreen.storyboard in Resources */,
 				2BFC745726BD74CC00BB4DF9 /* SettingsViewController.xib in Resources */,
+				2B2E5F8E26CB94DD00F7AD6A /* ObasMenuViewController.xib in Resources */,
+				2B2E5F9226CCF1DA00F7AD6A /* HistoryViewController.xib in Resources */,
 				2BFC742426BD4E0100BB4DF9 /* Assets.xcassets in Resources */,
 				2BFC745126BD748D00BB4DF9 /* HIstoryCollectionViewCell.xib in Resources */,
 				2BFC742226BD4DFD00BB4DF9 /* Main.storyboard in Resources */,
+				2B2E5F9726CCF6A200F7AD6A /* HistoryTableViewCell.xib in Resources */,
 				2BFC743326BD520F00BB4DF9 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,9 +317,12 @@
 			files = (
 				2BFC744826BD745F00BB4DF9 /* ApiUtils.swift in Sources */,
 				2BFC741F26BD4DFD00BB4DF9 /* ViewController.swift in Sources */,
+				2B2E5F9626CCF6A200F7AD6A /* HistoryTableViewCell.swift in Sources */,
 				2BFC744726BD745F00BB4DF9 /* HelperClass.swift in Sources */,
+				2B2E5F9126CCF1DA00F7AD6A /* HistoryViewController.swift in Sources */,
 				2BFC745626BD74CC00BB4DF9 /* SettingsViewController.swift in Sources */,
 				2BFC744C26BD747200BB4DF9 /* Models.swift in Sources */,
+				2B2E5F8D26CB94DD00F7AD6A /* ObasMenuViewController.swift in Sources */,
 				2BFC745226BD748D00BB4DF9 /* HistoryCVC.swift in Sources */,
 				2BFC741B26BD4DFD00BB4DF9 /* AppDelegate.swift in Sources */,
 				2BFC741D26BD4DFD00BB4DF9 /* SceneDelegate.swift in Sources */,
